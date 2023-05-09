@@ -6,3 +6,4 @@
      *  Shortcut for backslash `\` and pipe `|`
      *  Remap media keys
      *  Add Num block to letters
+     *  Mouse wheel volume control
