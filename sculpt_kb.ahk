@@ -1,9 +1,9 @@
 ; backslash: "Ctrl+/" => "\"
-^/::Send {ASC 92} ;\
+^/::Send \
 return
 
 ; pipe: "Ctrl+Shift+/" => "|"
-^+/::Send {ASC 124} ;|
+^+/::Send |
 return
 
 ;Remap Media Keys
