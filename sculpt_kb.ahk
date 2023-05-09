@@ -30,3 +30,11 @@ return
 ^+!8::Send 8
 ^+!9::Send 9
 return
+
+; Mouse wheel control for volume up-down
+^+WheelUp::Send {Volume_Up}
+^+WheelDown::Send {Volume_Down}
+XButton1 & WheelUp::Send {Volume_Up}
+XButton1 & WheelDown::Send {Volume_Down}
+return
+
