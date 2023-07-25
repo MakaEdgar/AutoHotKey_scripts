@@ -1,10 +1,15 @@
 ; backslash: "Ctrl+/" => "\"
-^/::Send \
+^]::Send \
 return
 
 ; pipe: "Ctrl+Shift+/" => "|"
-^+/::Send |
+^+]::Send |
 return
+
+; slash: "Ctrl+Shift+Alt+/" => "/"
+^+!]::Send /
+return
+
 
 ;Remap Media Keys
 PrintScreen::Send {Volume_Down}
@@ -37,4 +42,3 @@ return
 XButton1 & WheelUp::Send {Volume_Up}
 XButton1 & WheelDown::Send {Volume_Down}
 return
-
