@@ -20,7 +20,7 @@
 ; ==================== BimbaLaszlo (.github.io|gmail.com) ====================
 
 Terminal  := "C:\Program Files\ConEmu\ConEmu64.exe"
-Tcmd      := "c:\app\tcmd\totalcmd64.exe"
+Tcmd      := "C:\Program Files\totalcmd\totalcmd64.exe"
 CdCommand := "cd"
 
 #if WinActive("ahk_class TTOTAL_CMD")
@@ -51,7 +51,7 @@ CdCommand := "cd"
   }
 #if
 
-#if WinActive("ahk_class VirtualConsoleClass")
+; #if WinActive("ahk_class VirtualConsoleClass")
   ^Space::
   {
     ; Create new Tcmd instance or switch to it if it's exists.
@@ -63,4 +63,4 @@ CdCommand := "cd"
     WinActivate
     Return
   }
-#if
+; #if

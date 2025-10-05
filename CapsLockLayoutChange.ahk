@@ -1,5 +1,4 @@
 SetCapsLockState, AlwaysOff
-+CapsLock::CapsLock
-
+SendMode Input
 CapsLock::Send, {Alt Down}{Shift Down}{Shift Up}{Alt Up}
-return
++CapsLock::CapsLock
