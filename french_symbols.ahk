@@ -1,22 +1,23 @@
-; french special characters: "Ctrl+Alt+[Shift]+..."
-^!q::Send à
-^!w::Send á
-^!e::Send â
-^!+a::Send æ
+; AutoHotkey v1 script for French special characters: "Ctrl+Alt+[Shift]+..."
 
-^!1::Send è
-^!2::Send é
-^!3::Send ê
-^!+e::Send ë
+^!q::Send {u+00e0}  ; à
+^!w::Send {u+00e1}  ; á
+^!e::Send {u+00e2}  ; â
+^!+a::Send {u+00e6} ; æ
 
-!o::Send ó
-^!o::Send ô
-^!+o::Send œ
+^!1::Send {u+00e8}  ; è
+^!2::Send {u+00e9}  ; é
+^!3::Send {u+00ea}  ; ê
+^!+e::Send {u+00eb} ; ë
 
-^!c::Send ç
+!o::Send {u+00f3}   ; ó
+^!o::Send {u+00f4}  ; ô
+^!+o::Send {u+0153} ; œ
 
-^!i::Send î
-^!+i::Send ï
+^!c::Send {u+00e7}  ; ç
 
-^!u::Send ù
-^!+u::Send ü
+^!i::Send {u+00ee}  ; î
+^!+i::Send {u+00ef} ; ï
+
+^!u::Send {u+00f9}  ; ù
+^!+u::Send {u+00fc} ; ü
