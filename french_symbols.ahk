@@ -19,5 +19,6 @@
 ^!i::Send {u+00ee}  ; î
 ^!+i::Send {u+00ef} ; ï
 
-^!u::Send {u+00f9}  ; ù
+!u::Send {u+00f9}   ; ù
+^!u::Send {u+00fb}  ; û
 ^!+u::Send {u+00fc} ; ü
