@@ -22,11 +22,13 @@ CapsLock::
         SwitchToLayout(LANG_RU)
     else
         SwitchToLayout(LANG_EN)
+    KeyWait, CapsLock
 return
 
 ; Extra language: CapsLock + F -> French
 CapsLock & f::
     SwitchToLayout(LANG_FR)
+    KeyWait, CapsLock
 return
 
 ; Real Caps Lock via Shift + CapsLock
@@ -36,6 +38,7 @@ return
         SetCapsLockState, Off
     else
         SetCapsLockState, On
+    KeyWait, CapsLock
 return
 
 GetCurrentLayout() {
