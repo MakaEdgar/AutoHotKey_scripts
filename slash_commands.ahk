@@ -11,3 +11,8 @@ return
 ^!u::
     SendInput, {Text}/usage
 return
+
+; Ctrl+Alt+Y -> type "/status"
+^!y::
+    SendInput, {Text}/status
+return
